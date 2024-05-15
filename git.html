@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0f0f0f;
+            color: #fff;
+        }
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #ff4081;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #ff4081;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            margin: 2rem 0;
+            padding: 1rem;
+            background-color: #1a1a1a;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 64, 129, 0.5);
+        }
+        section h2 {
+            border-bottom: 2px solid #ff4081;
+            padding-bottom: 0.5rem;
+            color: #ff4081;
+        }
+        .card {
+            background-color: #333;
+            border-radius: 10px;
+            padding: 1rem;
+            margin: 1rem 0;
+            box-shadow: 0 0 10px rgba(255, 64, 129, 0.5);
+        }
+        .card h3 {
+            color: #ff4081;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 1rem;
+        }
+        footer {
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+            border-top: 2px solid #ff4081;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="card">
+                <p>Welcome to my portfolio! My name is xtrapnation and i create videos and thumbnails!</p>
+                <img src="pfp.jpg" alt="this is me">
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="card">
+                <h3>Geometry Dash Level - "DashMaster"</h3>
+                <p>A challenging and visually stunning level created in Geometry Dash. Utilized intricate design elements and synchronised them with music for an immersive gameplay experience.</p>
+                <img src="images/geometry-dash-project.jpg" alt="Geometry Dash Project Image">
+            </div>
+            <div class="card">
+                <h3>Video Editing Project - "Epic Montage"</h3>
+                <p>An action-packed video montage highlighting the best moments from various gaming sessions. Used advanced editing techniques and effects to create a high-energy video.</p>
+                <img src="1.jpg" alt="thumb">
+            </div>
+            <!-- Add more project cards as needed -->
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="card">
+                <ul>
+                    <li>Pro Geometry Dash player</li>
+                    <li>Video Editing (Adobe Premiere Pro)</li>
+                    <li>Graphic Design (Photoshop)</li>
+
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="card">
+                <p>If you would like to get in touch, please reach out to me via email at <a href="mailto:xtrapnationtoo@gmail.com" style="color: #ff4081;">xtrapnationtoo@gmail.com</a>.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
